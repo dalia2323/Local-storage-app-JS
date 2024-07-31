@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    transition: 0.3ms;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    list-style-type: none;
+
+}
+ul li:hover{
+    opacity: .7;
+}
+ul{
+    width: 300px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 550px;
+    display: flex;
+    background-color: rgba(197, 203, 203, 0.363);
+}
+ul li:first-child{
+    background-color: red;
+}
+ul li:nth-child(2){
+    background-color:green ;
+}
+ul li:nth-child(3){
+    background-color:blue ;
+}ul li:nth-child(4){
+    background-color:black ;
+}
+.expirment{
+width: 400px;
+height: 200px;
+background-color: red;
+margin-left: 500px;
+margin-top: 20px;
+}
